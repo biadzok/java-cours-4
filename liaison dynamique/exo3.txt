@@ -1,0 +1,38 @@
+-- 1 --
+
+aa.bin(aa) -> 1
+aa.bin(bb) -> 1
+aa.bin(ab) -> 1
+bb.bin(aa) -> 1
+bb.bin(bb) -> 2
+bb.bin(ab) -> 1
+ab.bin(ab) -> 1
+ab.bin(bb) -> 2
+ab.bin(ab) -> 1
+
+-- 2 --
+
+oe oe tkt, allez
+
+-- 3 --
+
+la première est une redéfinition tandis que l'autre est une surcharge
+
+-- 4 --
+
+aa.bin(aa) -> 1
+aa.bin(bb) -> 1
+aa.bin(ab) -> 1
+bb.bin(aa) -> 3
+bb.bin(bb) -> 2
+bb.bin(ab) -> 3
+ab.bin(ab) -> 1
+ab.bin(bb) -> 2
+ab.bin(ab) -> 1
+
+-- 5 --
+
+patron visiteur.
+
+-- 6 --
+
