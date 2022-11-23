@@ -1,0 +1,1 @@
+non car le cast implicite est interdit vers une classe fille.
