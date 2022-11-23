@@ -1,0 +1,12 @@
+Point pt1, pt2; // V
+Cercle c1, c2; // V
+pt1 = new Point(4.2, 7.3); // V
+pt2 = new Cercle(14.7, 62, 5.2); // V
+c1 = new Cercle(3.56, 7.84, 2.25); // V
+c2 = new Point(56.1, 76.9); // cast non implicite invalide
+pt1.deplace(0.5, 0.5); // V
+pt2.deplace(0.3, 0.8); // V
+pt2.changerRayon(6.21); // erreur, non instancié
+c1.deplace(0.4, 0.5); // V
+c1.changeRayon(2.52); // V
+c1.x = 4.78; // V
